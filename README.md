@@ -2,14 +2,9 @@
 
 **Wordcounter** is a Java library and command-line utility for counting words in text files and directory trees and performing analysis on the word counts, such as finding the top N most used words in all files. It makes heavy use of functional programming constructs and parallel computing approaches to utilize all available cores when performing the analysis.
 
-The library uses JDK 8 [lambdas](http://openjdk.java.net/projects/lambda/), as well as new JDK 7 features such as [Fork / Join](http://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html) and [NIO.2](http://docs.oracle.com/javase/tutorial/essential/io/fileio.html). It is built and can only be used with the [early access version of JDK 8 with lambda support](http://jdk8.java.net/lambda/).
+The library uses JDK 8 [lambdas](http://openjdk.java.net/projects/lambda/), as well as new JDK 7 features such as [Fork / Join](http://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html) and [NIO.2](http://docs.oracle.com/javase/tutorial/essential/io/fileio.html). It is built and can only be used with the JDK 8
 
 With the introduction of lambdas and their supporting features in JDK 8, the way we build software in Java is going to change. If you would like to get an idea how your Java code might look like in a few years, you may take a look at Wordcounter. Unlike most resources available at the moment, this is not a tutorial, but a real working project.
-
-The latest binary, javadoc, and sources packages can be found in [downloads](https://github.com/downloads/stoyanr/Wordcounter/):
-+ [wordcounter-1.0.4.jar](https://github.com/downloads/stoyanr/Wordcounter/wordcounter-1.0.4.jar)
-+ [wordcounter-1.0.4-javadoc.jar](https://github.com/downloads/stoyanr/Wordcounter/wordcounter-1.0.4-javadoc.jar)
-+ [wordcounter-1.0.4-sources.jar](https://github.com/downloads/stoyanr/Wordcounter/wordcounter-1.0.4-sources.jar)
 
 This work is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
