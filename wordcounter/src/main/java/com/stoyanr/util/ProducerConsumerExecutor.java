@@ -32,8 +32,8 @@ import java.util.concurrent.TimeUnit;
  * blocking queue and process them.
  * 
  * @author Stoyan Rachev
- * @param <T1>
- * @param <T2> 
+ * @param <T1> producer
+ * @param <T2> consumer
  */
 public class ProducerConsumerExecutor<T1, T2> {
     

@@ -42,10 +42,12 @@ import com.stoyanr.util.ProducerConsumerExecutor;
  * <p>
  * To use this class, simply instantiate it with the appropriate lambdas and then call its 
  * {@code count} method:
- * <p>
+ * </p>
  * <pre>
  * // Count all words consisting of only alphabetic chars, ignoring case, using parallel processing
+ * {@code
  * new WordCounter(path, (c) -> Character.isAlphabetic(c), (s) -> s.toLowerCase(), true).count();
+ * }
  * </pre>
  * 
  * @author Stoyan Rachev

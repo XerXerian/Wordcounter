@@ -28,10 +28,12 @@ import com.stoyanr.util.ForkJoinComputer;
  * (optionally) a parallelism level. 
  * <p>
  * To use this class, simply instantiate it and then call one of its methods:
- * <p>
+ * </p>
  * <pre>
  * // Find the top 10 most used words in wc
+ * {@code
  * new WordCountAnalyzer(wc, true).findTop(10, (x, y) -> (y - x));
+ * }
  * </pre>
  * 
  * @author Stoyan Rachev

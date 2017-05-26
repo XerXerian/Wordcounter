@@ -112,7 +112,7 @@ public class WordCounts {
     public void print(PrintStream ps) {
         Logger.debug("Printing raw word counts");
         for (Entry<String, AtomicInteger> e : m.entrySet()) {
-            ps.printf("%20s: %d\n",  e.getKey(), e.getValue());
+            ps.printf("%20s: %d\n",  e.getKey(), e.getValue().get());
         }
     }
 
